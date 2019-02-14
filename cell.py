@@ -33,3 +33,5 @@ class Cell():
                 neighbours.append(a_grid[r+1][c+1])
         self.neigh = neighbours
 
+    def make_alive(self):
+        self.current_state = "X"
